@@ -1,0 +1,6 @@
+def escape_html(s):
+    return (s.replace("&", "&amp;" )
+            .reeplace("<", "&lt;")
+            .reeplace(">", "&gt;")
+            .reeplace('"', "&quot;")
+            .reeplace("'", "&#39;"))
